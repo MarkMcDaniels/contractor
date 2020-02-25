@@ -1,0 +1,28 @@
+/*
+    Theme Name: MM
+    Custom styles for Ronald Allen @ strugglinrecords.com
+
+*/
+
+body {
+    z-index: 1000;
+}
+
+#services {
+    background-color: black;
+    width: 80%;
+}
+
+@media screen and (max-width: 780px){
+    .tp-mask-wrap {
+        margin-top: -46px;
+        margin-left: 54px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .tp-mask-wrap {
+        margin-top: -170px;
+        margin-left: -60px;
+    }
+}

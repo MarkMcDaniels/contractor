@@ -1,0 +1,579 @@
+/*
+Theme Name: MM
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: My overrides to the underscores generated normalization styles
+
+Text Domain: mm
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+
+
+MM is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
+*/
+
+html {
+	scroll-padding-top: 50px;
+}
+
+a:hover {
+	color: black;
+}
+
+a {
+	color: white;
+	letter-spacing: 1px;
+	margin:5px;
+
+}
+
+a:focus {
+	color: white;
+}
+
+.page {
+	margin-bottom: 0px;
+}
+
+/* -------------------------------------------------------------
+	html mod
+
+---------------------------------------------------------------*/
+
+.header-contact {
+	margin-top: -32px;
+}
+
+.spacer {
+	min-height: 50px;
+}
+/*--------------------------------------------------------------
+# Navigation
+-o-------------------------------------------------------------*/
+.site-header {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color:  #8797a7;
+	align-items: center;
+	position: fixed;
+	z-index: 100;
+}
+
+.site-branding {
+	/* margin-top: 5px; */
+	margin-left: 8%;
+	min-height: 50px;
+	align-items: center;
+	align-content: center;
+	display: flex;
+}
+
+.site-branding img {
+	height: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	/* padding-right: 3%; */
+	width: 30%;
+	color: white;
+	height: 100%;
+}
+
+.main-navigation li {
+	max-height: 50px;
+}
+
+.menu-menu-1-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+nav ul {
+	
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	padding: 10px;
+}
+
+.main-navigation {
+	display: flex;
+	align-items: center;
+}
+
+.main-navigation ul {
+	display: flex;
+	align-items: center;
+}
+
+.selected {
+	color: #dd9933;
+	border-bottom-color: #dd9933;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.selected a {
+	color: #dd9933;
+	font-weight: bold;
+}
+
+.selected a:hover {
+	color: none;
+}
+
+#primary-menu {
+	margin-right: 20px;
+}
+
+#primary-menu a {
+	/* text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; */
+}
+/*--------------------------------------------------------
+	#Parallax
+----------------------------------------------------------*/
+
+
+#hero {
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-position: 0px -60px;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	min-height: 300px;
+	height: 600px;
+	width: 100%;
+}
+
+/*---------------------------------------------------------
+	#Pitch
+---------------------------------------------------------*/
+
+#pitch-container {
+	position: absolute;
+	width: 45%;
+	margin-top: 10%;
+	/* animates margin-left to 30% and opacity 0.8 in pitch-animation.js */
+	margin-left: 0%;
+	background-color: #d2b48c;
+	opacity: 0;
+	border-radius: 10px;
+}
+
+#pitch-container p {
+	color: black;
+	opacity: 0;
+	padding: 15px;
+	margin: 0px;
+}
+
+/*----------------------------------------------------------
+	#Services
+-----------------------------------------------------------*/
+#services {
+	padding-top: 25px;
+	background-color: #515d68;
+	color: white;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+
+#services h2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#services-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+
+
+#services-ul-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#services-ul-container ul{
+	display: inline-block;
+}
+
+.services-image img {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.services-article {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	flex: 0 0 350px;
+	margin-bottom:60px;
+}
+
+.services-img {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+
+}
+
+.services-article p {
+	padding: 0px 20px 0px 20px;
+	
+}
+
+
+/*
+*
+*	#projects section
+*
+*/
+
+#projects {
+	padding-top: 25px;
+	background-color: white;
+	color: #515d68;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#projects h2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.card {
+	width: 300px;
+	height: 280px;
+	box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 5px 0px 25px 0px;
+}
+
+.card a {
+	color: #515d68;
+	text-decoration: none;
+	margin: 0px;
+}
+
+.projects-link {
+ 	color: #515d68;
+	text-decoration: none;
+	margin: 0px;
+	
+}
+
+.project-links {
+	width: 60px;
+	height: 60px;
+}
+
+.projects-link-container {
+	width: 18%;
+	min-height: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+
+}
+
+.projects-link:hover {
+	text-decoration: none;
+}
+
+.project-details {
+	padding: 20px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.img-container {
+	width: 300px;
+	background-size: cover;
+	height: 210px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.card h4 {
+	color: #515d68;
+	margin: 0px;
+	width: 100%;
+}
+
+#projects-anchor {
+	position: absolute;
+	margin-top: 50px;
+}
+
+/*
+*	About section
+*/
+
+#about-parallax {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about-portrait {
+	width: 185px;
+	min-height: 250px;
+	max-height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	border: 4px solid white;
+	margin-left: -60px;
+	background-position: 0px 0px;
+
+}
+
+#about-description {
+	width: 500;
+	background-color: white;
+	border-radius: 8px;
+	max-height: 150px;
+	padding: 20px 55px 20px 20px;
+	display: flex;
+	align-items: center;
+}
+
+#about-description-container {
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	max-height: 150px;
+	align-items: center;
+	align-content: center;
+	
+}
+
+
+
+/*---------------------------------------
+
+		#contact
+
+----------------------------------------*/
+
+#contact {
+	min-height: 300px;
+	background-color:  #8797a7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+#form-container {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+#form-container input {
+	width:100%;
+	margin-bottom: 15px;
+}
+
+#form-container textarea {
+	width: 100%;
+	height: 300px;
+}
+
+/*-----------------------------------------
+
+		footer
+
+--------------------------------------------*/
+
+.site-footer {
+	width: 100%;
+	height: 100%;
+	background-color: #f4511e;
+}
+
+.footer-h2 {
+	margin-top: 0px;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#close {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+	
+}
+
+
+#close-ul {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+#close-ul li {
+	list-style-type: none;
+	color: white;
+	font-size: 40px;
+	
+	margin: 10px;
+}
+
+.site-info {
+	height: 100%;
+}
+
+.creator {
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+/*-------------------------------------------
+
+	CONTACT PAGE
+
+--------------------------------------------*/
+#contact-page-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.thank-you {
+	margin-top: 200px;
+	text-align: center;
+	width: 100%;
+	color:#515d68;
+}
+
+.contact-form-req {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	
+	
+}
+
+.contact-form-req input {
+	width: 100%;
+	margin-bottom: 10px;
+	color: #515d68;
+}
+
+.contact-footer {
+	width: 100%;
+	height: 100px;
+	background-color: #f4511e;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.contact-us {
+	width: 100%;
+	text-align: center;
+	margin: 80px 0px 30px 0px;
+	color: #515d68;
+}
+
+#send-button {
+	width: 60px;
+	background-color: #515d68;
+	color: white;
+	margin-top: 10px;
+	
+}
+
+/**
+
+	PRODUCTS PAGE
+
+
+*/
+
+#contractor {
+	margin-top: 100px;
+	width: 100%;
+	color: #515d68;
+}
+
+#contractor h2 {
+	text-align: center;
+}
+
+#contractor-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#contractor-img {
+	width: 390px;
+	
+	min-height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 5px 0px 25px 0px;
+}
