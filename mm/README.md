@@ -1,1 +1,1 @@
-This is customizable Wordpress theme for freelancers and contractors.
+This is a customizable Wordpress theme for freelancers and contractors.
